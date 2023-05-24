@@ -1,0 +1,3 @@
+rootProject.name = 'CleanCode'
+include 'kodilla-good-patterns'
+
