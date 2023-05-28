@@ -9,5 +9,8 @@ public class App {
         OrderProcessor orderProcessor1 = new OrderProcessor(new EmailService(),new GlutenFreeShop());
         orderProcessor1.process();
 
+        OrderProcessor orderProcessor2 = new OrderProcessor(new EmailService(),new HealthyShop());
+        orderProcessor2.process();
+
     }
 }
